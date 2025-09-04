@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "id": "instamineable-deepslate",
+    "version": "1.21.8",
+    "name": "Instamineable Deepslate",
+    "description": "Makes deepslate instamineable with netherite pickaxe with eff V and haste II",
+    "authors": [
+        "Froz3nKill3r69"
+    ],
+    "contact": {
+        "homepage": "https://github.com/justinscott12",
+        "sources": "https://github.com/justinscott12/instamineable-deepslate"
+    },
+    "license": "MIT",
+    "icon": "assets/instamineable-deepslate/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+          "com.instamineabledeepslate.InstamineableDeepslateMod"
+        ]
+    },
+    "mixins": [
+      "instamineable-deepslate.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric-api": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
