@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "id": "instamineable-deepslate",
-    "version": "1.21.8",
+    "version": "${version}",
     "name": "Instamineable Deepslate",
     "description": "Makes deepslate instamineable with netherite pickaxe with eff V and haste II",
     "authors": [

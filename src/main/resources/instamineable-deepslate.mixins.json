@@ -2,8 +2,7 @@
     "required": true,
     "minVersion": "0.8",
     "package": "com.instamineabledeepslate.mixin",
-    "compatibilityLevel": "JAVA_21",
-    "refmap": "instamineable-deepslate.refmap.json",
+    "compatibilityLevel": "JAVA_25",
     "mixins": [
         "BlockMixin"
     ],
